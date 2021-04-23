@@ -41,21 +41,21 @@ void main()
 		if(c1==0)
 		{
 			pwd[x]='0';		
-			delay();delay();delay();delay();delay();delay();delay();delay();delay();delay();delay();
+			delay();
 			lcddat('*'); // for hidding the password 
 			x=x+1;
 		}
 		if(c2==0)
 		{
 			pwd[x]='2';
-			delay();delay();delay();delay();delay();delay();delay();delay();delay();delay();delay();
+			delay;
 			lcddat('*'); // for hidding the password
 			x=x+1;
 		}
 		if(c3==0)
 		{
 			pwd[x]='3';
-			delay();delay();delay();delay();delay();delay();delay();delay();delay();delay();delay();
+			delay();
 			lcddat('*'); // this star is for hidding the password 
 			x=x+1;
 		}
@@ -63,21 +63,21 @@ void main()
 		if(c1==0)
 		{
 			pwd[x]='4';
-			delay();delay();delay();delay();delay();delay();delay();delay();delay();delay();delay();
+			delay();
 			lcddat('*');
 			x=x+1;
 		}
 		if(c2==0)
 		{
 			pwd[x]='5';
-			delay();delay();delay();delay();delay();delay();delay();delay();delay();delay();delay();
+			delay();
 			lcddat('*');
 			x=x+1;
 		}
 		if(c3==0)
 		{
 			 pwd[x]='6';
-			delay();delay();delay();delay();delay();delay();delay();delay();delay();delay();delay();
+			delay();
 			lcddat('*');
 			x=x+1;
 		}
@@ -85,21 +85,21 @@ void main()
 		if(c1==0)
 		{
 			pwd[x]='7';
-			delay();delay();delay();delay();delay();delay();delay();delay();delay();delay();delay();
+			delay();
 			lcddat('*');
 			x=x+1;
 		}
 		if(c2==0)
 		{
 			pwd[x]='8';
-			delay();delay();delay();delay();delay();delay();delay();delay();delay();delay();delay();
+			delay();
 			lcddat('*');
 			x=x+1;
 		}
 		if(c3==0)
 		{
 			pwd[x]='9';
-			delay();delay();delay();delay();delay();delay();delay();delay();delay();delay();delay();
+			delay();
 			lcddat('*');
 			x=x+1;
 		}
@@ -107,14 +107,14 @@ void main()
 	  if(c1==0)
 		{
 			pwd[x]='*';
-			delay();delay();delay();delay();delay();delay();delay();delay();delay();delay();delay();delay();delay();delay();delay();
+			delay();
 			lcddat('*');
 			x=x+1;
 		}
 		if(c2==0)
 		{
 			pwd[x]='0';
-			delay();delay();delay();delay();delay();delay();delay();delay();delay();delay();delay();delay();delay();delay();delay();
+			delay();
 			lcddat('*');
 			x=x+1;
 		}
